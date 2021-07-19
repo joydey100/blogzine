@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogZine | A Blog Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main CSS stylsheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Top Alert Section -->
+    <div
+      class="alert light-blue alert-dismissible fade show text-center"
+      role="alert"
+    >
+      <strong>Unlimited download! Starting from just $15/m </strong>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <!-- Header Section Start -->
+    <header>
+      <!-- Main Navigaion -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header-navbar"
+            aria-controls="header-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="header-navbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Highlighted News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sponsored News</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a href="#" class="btn btn-danger ms-2 btn-sm d-none d-lg-block"
+                  >Subscribe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Small Slider -->
+      <section class="small-slider container mt-4 d-none d-md-block">
+        <div
+          id="small-slider"
+          class="carousel slide position-relative"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="d-flex align-items-center light-blue p-2 ps-4">
+                The most common business debate isn't as black and white as you
+                might think
+              </p>
+            </div>
+            <div class="carousel-item">
+              <p class="d-flex align-items-center light-blue p-2 ps-4">
+                The most common business debate isn't as black and white as you
+                might think
+              </p>
+            </div>
+            <div class="carousel-item">
+              <p class="d-flex align-items-center light-blue p-2 ps-4">
+                The most common business debate isn't as black and white as you
+                might think
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main News/ Banner Section -->
+      <section class="main-news-section container mt-5">
+        <div class="row g-4">
+          <!-- left part  -->
+          <div class="col-lg-6">
+            <a href="#">
+              <article
+                class="
+                  news news-image-1
+                  d-flex
+                  align-items-end
+                  full-height
+                  rounded-3
+                "
+              >
+                <div class="news-content p-4">
+                  <span class="badge bg-danger px-4 py-2">
+                    <i class="fas fa-circle text-white me-2"></i>Lifestyle</span
+                  >
+                  <br />
+                  <h1 class="my-2 text-white">
+                    Ten tell-tale signs you need to get a new startup.
+                  </h1>
+                  <p class="mb-2 text-white">
+                    No visited raising gravity outward subject my cottage Mr be.
+                    Hold do at tore in park feet near my case.
+                  </p>
+                  <div
+                    class="
+                      news-details
+                      text-white
+                      d-flex
+                      align-items-center
+                      my-3
+                    "
+                  >
+                    <div class="author-img d-flex align-items-center">
+                      <img
+                        src="images/author/9.jpg"
+                        alt="author"
+                        class="img-fluid rounded-circle"
+                      />
+                      <span class="ms-2">by Louis</span>
+                    </div>
+                    <div class="publish-time ms-3">Nov 15, 2021</div>
+                    <div class="read-time ms-3">5 min read</div>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+
+          <!-- Right Part -->
+          <div class="col-lg-6">
+            <div class="row g-4">
+              <!-- right top  -->
+              <div class="col-lg-12 col-12">
+                <a href="#">
+                  <article
+                    class="
+                      news news-image-2
+                      d-flex
+                      align-items-end
+                      half-height
+                      rounded-3
+                    "
+                  >
+                    <div class="news-content p-4">
+                      <span class="badge bg-warning px-4 py-2">
+                        <i class="fas fa-circle text-white me-2"></i
+                        >Technology</span
+                      >
+                      <br />
+                      <h4 class="my-2 text-white">
+                        Best Pinterest Board for learning about business
+                      </h4>
+                      <div
+                        class="
+                          news-details
+                          text-white
+                          d-flex
+                          align-items-center
+                          my-1
+                        "
+                      >
+                        <div class="author-img d-flex align-items-center">
+                          <img
+                            src="images/author/3.jpg"
+                            alt="author"
+                            class="img-fluid rounded-circle"
+                          />
+                          <span class="ms-2">by Bryan</span>
+                        </div>
+                        <div class="publish-time ms-3">Aug 18, 2021</div>
+                      </div>
+                    </div>
+                  </article>
+                </a>
+              </div>
+
+              <!-- right bottom -->
+              <div class="col-lg-6 col-12">
+                <a href="#">
+                  <article
+                    class="
+                      news news-image-3
+                      d-flex
+                      align-items-end
+                      half-height
+                      rounded-3
+                    "
+                  >
+                    <div class="news-content p-4">
+                      <span class="badge bg-success px-4 py-2">
+                        <i class="fas fa-circle text-white me-2"></i
+                        >Business</span
+                      >
+                      <br />
+                      <h4 class="my-2 text-white">
+                        Five Intermediate Guid for Business
+                      </h4>
+                      <div
+                        class="
+                          news-details
+                          text-white
+                          d-flex
+                          align-items-center
+                          my-1
+                        "
+                      >
+                        <div class="author-img d-flex align-items-center">
+                          <img
+                            src="images/author/2.jpg"
+                            alt="author"
+                            class="img-fluid rounded-circle"
+                          />
+                          <span class="ms-2">by Joan</span>
+                        </div>
+                        <div class="publish-time ms-3">Jun 03, 2021</div>
+                      </div>
+                    </div>
+                  </article>
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <a href="#">
+                  <article
+                    class="
+                      news news-image-4
+                      d-flex
+                      align-items-end
+                      half-height
+                      rounded-3
+                    "
+                  >
+                    <div class="news-content p-4">
+                      <span class="badge bg-primary px-4 py-2">
+                        <i class="fas fa-circle text-white me-2"></i
+                        >Sports</span
+                      >
+                      <br />
+                      <h4 class="my-2 text-white">
+                        15 reason to choose Startup
+                      </h4>
+                      <div
+                        class="
+                          news-details
+                          text-white
+                          d-flex
+                          align-items-center
+                          my-1
+                        "
+                      >
+                        <div class="author-img d-flex align-items-center">
+                          <img
+                            src="images/author/1.jpg"
+                            alt="author"
+                            class="img-fluid rounded-circle"
+                          />
+                          <span class="ms-2">by Amanda</span>
+                        </div>
+                        <div class="publish-time ms-3">Jan 28, 2021</div>
+                      </div>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main>
+      <!-- Main Center/ Top Highlights  -->
+      <section class="main-center container my-5">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <h2>Top Highlights</h2>
+            <p class="mt-2 mb-4">
+              Latest breaking news, pictures, videos, and special reports
+            </p>
+            <!-- Top Higlights Blogs| Left Side -->
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/1.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-warning
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i
+                      >Technology</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >12 worst type of business accounts you follow on
+                      Twitter</a
+                    >
+                    <p class="card-text my-2">
+                      He moonlights difficult engrossed it, sportsmen.
+                      Interested has all Devonshire difficulty gay assistance
+                      joy. Unaffected at ye of compliment alteration to
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/5.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by Gianna</span>
+                      </div>
+                      <div class="publish-time ms-3">Aug 15, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/2.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-danger
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i>Travel</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >Dirty little Secrets about the business industry</a
+                    >
+                    <p class="card-text my-2">
+                      Place voice no arises along to. Parlors waiting so against
+                      me no. Wishing calling is warrant settled was lucky.
+                      Express besides it present if at an opinion visitor.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/6.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by lara</span>
+                      </div>
+                      <div class="publish-time ms-3">Aug 15, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/3.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-success
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i
+                      >Gadgets</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >Bad Habits that people in the industry need to quiet</a
+                    >
+                    <p class="card-text my-2">
+                      For who thoroughly her boy estimating conviction. Removed
+                      demands expense account in outward tedious do. Particular
+                      way thoroughly unaffected
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/3.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by bryan</span>
+                      </div>
+                      <div class="publish-time ms-3">April 05, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/4.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-primary
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i>Sports</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >Around the Web: 20 favulous infographic about business</a
+                    >
+                    <p class="card-text my-2">
+                      Projection favorable Mrs can be projecting own. Thirty it
+                      matter enable become admire in giving. See resolved
+                      goodness felicity shy civility domestic had but.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/1.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by Billi</span>
+                      </div>
+                      <div class="publish-time ms-3">April 05, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/5.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-info
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i
+                      >Marketing</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >7 common mistakes that every one makes while
+                      travelling</a
+                    >
+                    <p class="card-text my-2">
+                      Drawings offended yet answered Jennings perceive laughing
+                      six did far. Rooms oh fully taken by worse do. Points
+                      afraid but may end law lasted.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/10.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by Jacquline</span>
+                      </div>
+                      <div class="publish-time ms-3">May 05, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card h-100 shadow-lg border-0">
+                  <div class="img-top-card position-relative">
+                    <img src="images/blog/6.jpg" class="card-img-top img-fluid
+                    rounded-3" alt="blog Highlights"" />
+                    <span
+                      class="
+                        badge
+                        bg-danger
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-3
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"> </i
+                      >Photography</span
+                    >
+                  </div>
+
+                  <div class="card-body">
+                    <a href="#" class="h3 card-title text-dark my-2"
+                      >5 Investment Doubt you should clearify</a
+                    >
+                    <p class="card-text my-2">
+                      Was out laughter raptures returned outweigh. Luckily
+                      cheered colonel I do we attack highest enabled. Tried law
+                      yet style child. The bore of true of no be deal.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0">
+                    <div
+                      class="
+                        single-highlight-blog-details
+                        d-flex
+                        align-items-center
+                        my-3
+                      "
+                    >
+                      <div class="author-img d-flex align-items-center">
+                        <img
+                          src="images/author/7.jpg"
+                          alt="author"
+                          class="img-fluid rounded-circle"
+                        />
+                        <span class="ms-2">by Caroline</span>
+                      </div>
+                      <div class="publish-time ms-3">Jan 09, 2021</div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <!-- Top Highlight Right Side -->
+          <div class="col-lg-4">
+            <!-- Social Icon -->
+            <div class="row g-3">
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="
+                    card
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    border-0
+                    fb-bg
+                    rounded-3
+                    pt-3
+                    text-white
+                  "
+                >
+                  <div class="social-content text-center">
+                    <i class="fab fa-facebook-square h4"></i>
+                    <h5>1.5K</h5>
+                    <p>Fans</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="
+                    card
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    border-0
+                    insta-bg
+                    rounded-3
+                    pt-3
+                    text-white
+                  "
+                >
+                  <div class="social-content text-center">
+                    <i class="fab fa-instagram h4"></i>
+                    <h5>1.8M</h5>
+                    <p>Followers</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="
+                    card
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    border-0
+                    yt-bg
+                    rounded-3
+                    pt-3
+                    text-white
+                  "
+                >
+                  <div class="social-content text-center">
+                    <i class="fab fa-facebook-square h4"></i>
+                    <h5>1.5K</h5>
+                    <p>Fans</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Trending Topic -->
+            <div class="row g-3">
+              <h4 class="mt-5 mb-2">Trending Topics</h4>
+              <div class="col-12">
+                <a
+                  href="#"
+                  class="
+                    trending-topic trending-topic-one
+                    text-white
+                    p-3
+                    text-center
+                    d-block
+                  "
+                >
+                  <span>Travel </span>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  href="#"
+                  class="
+                    trending-topic trending-topic-two
+                    text-white
+                    p-3
+                    text-center
+                    d-block
+                  "
+                >
+                  <span>Business </span>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  href="#"
+                  class="
+                    trending-topic trending-topic-three
+                    text-white
+                    p-3
+                    text-center
+                    d-block
+                  "
+                >
+                  <span>Photography </span>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  href="#"
+                  class="
+                    trending-topic trending-topic-four
+                    text-white
+                    p-3
+                    text-center
+                    d-block
+                  "
+                >
+                  <span>Marketing </span>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  href="#"
+                  class="
+                    trending-topic trending-topic-five
+                    text-white
+                    p-3
+                    text-center
+                    d-block
+                  "
+                >
+                  <span>Sports </span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Recent-post -->
+            <div class="row g-3">
+              <h4 class="mt-5 mb-3">Recent Post</h4>
+              <div class="col-12">
+                <div class="row gx-2 d-flex align-items-center">
+                  <div class="col-md-4 col-12">
+                    <div class="recent-img">
+                      <img
+                        src="images/blog/2.jpg"
+                        alt="recentpost"
+                        class="img-fluid rounded"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-12">
+                    <a href="#" class="d-block recent-text text-dark mb-2">
+                      The pros and the cons of Business</a
+                    >
+                    <small> May 17, 2021</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row gx-2 d-flex align-items-center">
+                  <div class="col-md-4 col-12">
+                    <div class="recent-img">
+                      <img
+                        src="images/blog/6.jpg"
+                        alt="recentpost"
+                        class="img-fluid rounded"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-12">
+                    <a href="#" class="d-block recent-text text-dark mb-2">
+                      5 reason why you shouldn't startup</a
+                    >
+                    <small> June 07, 2021</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row gx-2 d-flex align-items-center">
+                  <div class="col-md-4 col-12">
+                    <div class="recent-img">
+                      <img
+                        src="images/blog/4.jpg"
+                        alt="recentpost"
+                        class="img-fluid rounded"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-12">
+                    <a href="#" class="d-block recent-text text-dark mb-2">
+                      Ten question you should answer truthfully</a
+                    >
+                    <small> Aprol 11, 2021</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row gx-2 d-flex align-items-center">
+                  <div class="col-md-4 col-12">
+                    <div class="recent-img">
+                      <img
+                        src="images/blog/3.jpg"
+                        alt="recentpost"
+                        class="img-fluid rounded"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-12">
+                    <a href="#" class="d-block recent-text text-dark mb-2">
+                      5 Unbelivable facts about money</a
+                    >
+                    <small> Dec 03, 2021</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsored News -->
+      <section class="sponsored-news container my-5">
+        <h2 class="mt-4 mb-2">Sponsored News</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <article
+                class="
+                  sponsored-news
+                  d-flex
+                  align-items-end
+                  rounded-3
+                  shadow-lg
+                "
+              >
+                <div class="sponsor-news-content p-4">
+                  <div class="sponsored-news-top position-relative">
+                    <img
+                      src="images/sponsored-news/1.jpg"
+                      alt="sponsornews"
+                      class="img-fluid"
+                    />
+                    <span
+                      class="
+                        badge
+                        bg-primary
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-2
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"></i
+                      >Photography</span
+                    >
+                  </div>
+                  <h5 class="my-2 text-dark">
+                    This is why the year will be best for startup
+                  </h5>
+                  <div class="d-flex align-items-center my-1 text-dark">
+                    <div class="author-img d-flex align-items-center">
+                      <img
+                        src="images/author/3.jpg"
+                        alt="author"
+                        class="img-fluid rounded-circle"
+                      />
+                      <span class="ms-2">by Samuel</span>
+                    </div>
+                    <div class="publish-time ms-3">Jun 03, 2021</div>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <article
+                class="
+                  sponsored-news
+                  d-flex
+                  align-items-end
+                  rounded-3
+                  shadow-lg
+                "
+              >
+                <div class="sponsor-news-content p-4">
+                  <div class="sponsored-news-top position-relative">
+                    <img
+                      src="images/sponsored-news/2.jpg"
+                      alt="sponsornews"
+                      class="img-fluid"
+                    />
+                    <span
+                      class="
+                        badge
+                        bg-warning
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-2
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"></i
+                      >Technology</span
+                    >
+                  </div>
+                  <h5 class="my-2 text-dark">
+                    Best Pinterest Board for learning about Business
+                  </h5>
+                  <div class="d-flex align-items-center my-1 text-dark">
+                    <div class="author-img d-flex align-items-center">
+                      <img
+                        src="images/author/5.jpg"
+                        alt="author"
+                        class="img-fluid rounded-circle"
+                      />
+                      <span class="ms-2">by Joana</span>
+                    </div>
+                    <div class="publish-time ms-3">Jul 13, 2021</div>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <article
+                class="
+                  sponsored-news
+                  d-flex
+                  align-items-end
+                  rounded-3
+                  shadow-lg
+                "
+              >
+                <div class="sponsor-news-content p-4">
+                  <div class="sponsored-news-top position-relative">
+                    <img
+                      src="images/sponsored-news/3.jpg"
+                      alt="sponsornews"
+                      class="img-fluid"
+                    />
+                    <span
+                      class="
+                        badge
+                        bg-danger
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-2
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"></i>travel</span
+                    >
+                  </div>
+                  <h5 class="my-2 text-dark">
+                    7 Common mistakes while travelling
+                  </h5>
+                  <div class="d-flex align-items-center my-1 text-dark">
+                    <div class="author-img d-flex align-items-center">
+                      <img
+                        src="images/author/1.jpg"
+                        alt="author"
+                        class="img-fluid rounded-circle"
+                      />
+                      <span class="ms-2">by Lara</span>
+                    </div>
+                    <div class="publish-time ms-3">Aug 17, 2021</div>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <article
+                class="
+                  sponsored-news
+                  d-flex
+                  align-items-end
+                  rounded-3
+                  shadow-lg
+                "
+              >
+                <div class="sponsor-news-content p-4">
+                  <div class="sponsored-news-top position-relative">
+                    <img
+                      src="images/sponsored-news/4.jpg"
+                      alt="sponsornews"
+                      class="img-fluid"
+                    />
+                    <span
+                      class="
+                        badge
+                        bg-info
+                        px-4
+                        py-2
+                        position-absolute
+                        bottom-0
+                        start-0
+                        m-2
+                      "
+                    >
+                      <i class="fas fa-circle text-white me-2"></i
+                      >Business</span
+                    >
+                  </div>
+                  <h5 class="my-2 text-dark">
+                    Skill that you can learn from business
+                  </h5>
+                  <div class="d-flex align-items-center my-1 text-dark">
+                    <div class="author-img d-flex align-items-center">
+                      <img
+                        src="images/author/6.jpg"
+                        alt="author"
+                        class="img-fluid rounded-circle"
+                      />
+                      <span class="ms-2">by Sara</span>
+                    </div>
+                    <div class="publish-time ms-3">Aug 17, 2021</div>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="mt-5 bg-dark text-white pt-3 py-1">
+      <!-- SubScription Section -->
+      <section class="subscription-section container pt-4">
+        <div class="row g-4 d-flex align-items-center">
+          <div class="col-lg-3">
+            <img
+              src="images/logo-footer.svg"
+              alt="footer logo"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-5">
+            The next-generation blog, news, and magazine theme for you to start
+            sharing your stories today! This Bootstrap 5 based theme is ideal
+            for all types of sites that deliver the news.
+          </div>
+          <div class="col-lg-4">
+            <form
+              action=""
+              class="d-md-flex justify-content-end align-items-center"
+            >
+              <input
+                type="email"
+                class="form-control w-md-50"
+                placeholder="Enter Your Email"
+              />
+              <button
+                type="submit"
+                class="btn btn-primary ms-md-2 mt-3 w-100 w-md-0 mt-md-0"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr class="mt-5 mb-4 container" />
+
+      <!-- Main footer  information-->
+      <section class="footer-info container">
+        <div class="row text-white g-4">
+          <div class="col-lg-3 d-flex flex-column">
+            <h4 class="mb-3">Get Regular Updates</h4>
+
+            <a href="#" class="mb-2 text-white">Whatsapp</a>
+            <a href="#" class="mb-2 text-white">Youtube </a>
+            <a href="#" class="mb-2 text-white">Service</a>
+            <a href="#" class="mb-2 text-white">LinkedIn</a>
+            <a href="#" class="mb-2 text-white">Newsletter </a>
+            <a href="#" class="mb-2 text-white">Podcast</a>
+            <a href="#" class="mb-2 text-white">Website Notification</a>
+          </div>
+          <div class="col-lg-3 d-flex flex-column">
+            <h4 class="mb-3">Navigation</h4>
+
+            <a href="#" class="mb-2 text-white">Home Page</a>
+            <a href="#" class="mb-2 text-white">About Page</a>
+            <a href="#" class="mb-2 text-white">Service Page</a>
+            <a href="#" class="mb-2 text-white">Blog Page </a>
+            <a href="#" class="mb-2 text-white">Theme Page</a>
+            <a href="#" class="mb-2 text-white">Support Page</a>
+            <a href="#" class="mb-2 text-white">Privacy Policy Page</a>
+          </div>
+          <div class="col-lg-3 d-flex flex-column">
+            <h4 class="mb-3">Some Message</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              voluptas dolorum repellat similique vitae dolores aut minus quis
+              debitis labore. Eaque, adipisci iste. Architecto temporibus
+              voluptas laborum maxim
+            </p>
+          </div>
+          <div class="col-lg-3 d-flex flex-column">
+            <h4 class="mb-3">Our Mobile App</h4>
+
+            <p>
+              Download our App and get the latest Breaking News Alerts and
+              latest headlines and daily articles near you.
+            </p>
+            <div class="apps d-flex align-items-center mt-3">
+              <a href="#" class="d-block"
+                ><img
+                  src="images/google-play.svg"
+                  alt="playstore"
+                  class="img-fluid w-75"
+              /></a>
+              <a href="#" class="d-block"
+                ><img
+                  src="images/app-store.svg"
+                  alt="playstore"
+                  class="img-fluid w-75"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="copyright mt-5 text-center mb-2">
+        &copy;Copyright Reserved by Blogzine | Made by Joy Dey
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Font Awesome JS -->
+    <script
+      src="https://kit.fontawesome.com/8184740b0e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
