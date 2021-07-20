@@ -8,12 +8,18 @@ body {
 }
 :root {
   --banner-height: 65vh;
+  --mobile-height: 75vh;
 }
 a {
   text-decoration: none;
+  font-weight: 400;
+}
+p {
+  font-weight: 400;
 }
 img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 /* Global CSS */
@@ -25,6 +31,15 @@ img {
 }
 .half-height {
   height: calc(var(--banner-height) / 2 - 0.7rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .full-height {
+    height: var(--mobile-height);
+  }
+  .half-height {
+    height: calc(var(--mobile-height) / 2);
+  }
 }
 
 /* main news section */
